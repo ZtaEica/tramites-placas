@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Header from '../components/Header';
 import TramitesList from '../components/TramitesList';
+import Seguimiento from '../components/Seguimiento';
 import Chatbox from '../components/ChatBox';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     <div>
       <Header />
       <TramitesList onSelectTramite={setTramiteSeleccionado} />
+      <Seguimiento />
       {tramiteSeleccionado && (
         <Chatbox
           tramite={tramiteSeleccionado}

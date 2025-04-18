@@ -1,0 +1,28 @@
+.clip-path-md {
+  background: linear-gradient(135deg, #fa6f4d, #e3433f);
+  clip-path: polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%);
+}
+
+.clippath-md {
+  background: linear-gradient(
+    135deg,
+    rgba(250, 111, 77, 0.7),
+    rgba(227, 67, 63, 0.7)
+  );
+  clip-path: polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%);
+}
+
+@media (max-width: 640px) {
+  .clip-path-md {
+    background: linear-gradient(135deg, #fa704dcf, #e3423fcf);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
+  }
+  .clippath-md {
+    background: linear-gradient(
+      135deg,
+      rgba(250, 111, 77, 0.6),
+      rgba(227, 67, 63, 0.6)
+    );
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
+  }
+}
