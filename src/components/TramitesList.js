@@ -80,11 +80,11 @@ const TramitesList = ({ onSelectTramite, onVerMas }) => {
       className="px-4 py-10 relative"
     >
       <div className="text-center mb-8">
-        <h2 className="text-2xl font-bold text-gray-800 mb-2">
+        <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-2">
           Trámites Disponibles
         </h2>
         <div
-          className="w-24 h-1 mx-auto rounded-full"
+          className="w-[150px] md:w-[200px] h-1 mx-auto rounded-full"
           style={{ backgroundColor: '#e3433f' }}
         ></div>
       </div>

@@ -98,7 +98,7 @@ const Header = () => {
 
       {/* Sección de presentación con fondo naranja y curva */}
       <div
-        className="flex items-center bg-cover bg-center h-[25rem] max-sm:h-[30rem] max-sm:pb-[2rem] relative"
+        className="flex items-center bg-fixed bg-cover bg-center h-[25rem] max-sm:h-[30rem] max-sm:pb-[2rem] relative"
         style={{ backgroundImage: `url(${headerImage})` }}
       >
         {/* Contenedor del borde detrás */}
