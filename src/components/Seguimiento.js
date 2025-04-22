@@ -174,7 +174,7 @@ const Seguimiento = () => {
       {/* Paso 1: Teléfono */}
       {step === 1 && (
         <motion.div
-          className="bg-white p-6 rounded-xl shadow-xl w-full max-w-md z-10"
+          className="bg-white p-6 rounded-xl shadow-xl w-[90%] lg:w-full max-w-md z-10"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0, transition }}
         >
@@ -220,7 +220,7 @@ const Seguimiento = () => {
       {/* Paso 2: Código */}
       {step === 2 && (
         <motion.div
-          className="bg-white p-6 rounded-xl shadow-xl w-full max-w-md z-10"
+          className="bg-white p-6 rounded-xl shadow-xl w-[90%] lg:w-full  max-w-md z-10"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0, transition }}
         >
@@ -290,7 +290,7 @@ const Seguimiento = () => {
       {/* Paso 3: Trámites */}
       {step === 3 && (
         <motion.div
-          className="bg-white p-6 rounded-xl shadow-xl w-full max-w-2xl z-10"
+          className="bg-white p-6 rounded-xl shadow-xl w-[90%] lg:w-full max-w-3xl z-10"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0, transition }}
         >
@@ -317,7 +317,7 @@ const Seguimiento = () => {
 
           {/* Lista animada */}
           <motion.ul
-            className="divide-y divide-gray-200"
+            className="divide-y divide-gray-200 overflow-y-auto max-h-[40vh] space-y-4 pr-2"
             key={estadoFiltro} // Este key forza el reinicio de animación al cambiar filtro
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
